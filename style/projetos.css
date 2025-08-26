@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+
+ul.projetos-lista {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    
+}
+
+ul.projetos-lista li {
+    width: 650px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 5px solid #ccc;
+    border-radius: 30px;
+}
+
+ul.projetos-lista img {
+    width: 600px;
+    height: 350px;
+}
+
+
+div.stacks img {
+    width: 30px;
+    height: 30px;
+}

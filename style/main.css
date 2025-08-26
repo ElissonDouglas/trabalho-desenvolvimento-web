@@ -1,0 +1,91 @@
+/* nesse arquivo estarão os estilos que vão estar presentes em todas as paginas*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/*barra de navegação*/
+
+header {
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.barraNavegacao {
+   display: flex;/* Alinha os itens em uma linha */
+    justify-content: center; /* eixo horizontal */
+    align-items: center;
+}
+
+.barraNavegacao ul {
+    list-style: none;  
+    display: flex;  
+    gap: 20px;  
+}
+
+.barraNavegacao li {
+    padding: 0 30px;
+    transition: .2s;
+}
+
+.barraNavegacao li:hover {
+    transform: scale(1.08);
+}
+
+
+/*Rodape da pagina*/
+footer {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #333;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s, opacity 0.3s;
+    filter: brightness(0) invert(1); /* deixa os ícones brancos */
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+

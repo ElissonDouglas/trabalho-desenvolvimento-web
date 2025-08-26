@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+.formacao-lista li, .idiomas-lista li {
+    display: grid;
+  grid-template-columns: 120px 80px 1fr; /* 3 colunas: ano, logo, descrição */
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.formacao-lista img {
+    width:100px;
+    height: 100px;
+    filter: brightness(0) invert(1);
+}
+
+.idiomas-lista img {
+    width:70px;
+    height: 70px;
+}
