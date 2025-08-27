@@ -29,23 +29,29 @@ main p {
 }
 
 .skills ul, .hobbies ul {
+    width: 300px;
     margin-top: 30px;
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
 .skills li, .hobbies li {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     transition: transform 0.3s;
+}
+
+.teste {
+    text-align: center;
 }
 
 .skills img, .hobbies img {
     width: 60px;
     height: 60px;
-    
 }
 
 .skills li:hover, .hobbies li:hover {

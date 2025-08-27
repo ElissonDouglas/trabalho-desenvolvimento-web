@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Contato</title>
+     <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/97467970?v=4https://avatars.githubusercontent.com/u/97467970?v=4" type="image/x-icon">
     <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/formacao.css">
+    <link rel="stylesheet" href="style/contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,33 +26,25 @@
     </header>
 
     <main>
-         <h1>Minha Formação</h1>
-        <ul class="formacao-lista">
-            <li>
-                <p>2017 - 2019</p>
-                <img src="https://alfredodantas.com.br/site/wp-content/uploads/2017/04/cad-logo-topo-114.png" alt="Colégio Alfredo Dantas">
-                <p>Colégio Alfredo Dantas (Ensino Médio)</p>
-            </li>
+        <h1>Formulário de contato</h1>
 
-            <li>
-                <p>2025 - Cursando</p>
-                <img src="imgs/logo-uninter.png" alt="Colégio Alfredo Dantas" width="100px" height="100px">
-                <p>Análise e Desenvolvimento de Sistemas (UNINTER)</p>
-            </li>
-        </ul>
+        <form action="" id="formularioContato">
+            <label for="name">Nome:</label>
+            <input type="text" id="nome" name="name" required placeholder="Seu nome">
 
-        <h2>Idiomas</h2>
-        <ul class="idiomas-lista">
-            <li>
-                <img src="imgs/brazil-.png" alt="Bandeira do Brasil">
-                <p>Português (Brasil)</p>
-            </li>
-            <li>
-                <img src="imgs/united-states.png" alt="Bandeira dos EUA">
-                <p>Inglês</p>
-            </li>
-        </ul>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Seu email">
+
+            <label for="message">Mensagem:</label>
+            <textarea id="mensagem" name="message" rows="4" required placeholder="Sua mensagem aqui"></textarea>
+
+            <button type="submit" id="enviarEmail">Enviar</button>
+
+        </form>
+
+
     </main>
+
 
     <footer>
             <div class="rodape">
